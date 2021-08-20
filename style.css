@@ -1,0 +1,112 @@
+nav {
+  background-color: rgb(247, 247, 247);
+  align-items:center;
+}
+
+
+
+body {
+text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding:8px;
+}
+
+.header {
+  background-color:rgba(255, 254, 236, 0.582);
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:rgba(207, 141, 158, 0.068);
+}
+
+h1 {
+  background-color:rgba(68, 163, 44, 0);
+}
+//Contact
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins' , sans-serif;
+}
+.contact
+{
+  position: relative;
+  min-height:100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
